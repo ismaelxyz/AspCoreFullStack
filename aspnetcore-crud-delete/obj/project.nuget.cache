@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "AGp/EH6MDvQ=",
+  "success": true,
+  "projectFilePath": "/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-delete/aspnetcore-crud-delete.csproj",
+  "expectedPackageFiles": [
+    "/home/crazy/.nuget/packages/microsoft.aspnetcore.openapi/9.0.7/microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+    "/home/crazy/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/home/crazy/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.7/microsoft.aspnetcore.app.ref.9.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
