@@ -6,7 +6,20 @@
 <div class="minimal-task-container">
     <ul id="task-list"></ul>
 </div>
-<form id='task-form'>
-    <input type="number" name="id" placeholder="ID">
-    <button type="submit">eliminar</button>
-</form>
+
+<div class="minimal-form-container">
+    <h2 class="minimal-subtitle">Agregar Tarea</h2>
+    <form id="add-task-form" class="minimal-form">
+        <input type="text" name="title" placeholder="Título de la tarea" required>
+        <input type="text" name="description" placeholder="Descripción de la tarea" required>
+        <button type="submit" class="btn-add">Agregar Tarea</button>
+    </form>
+</div>
+
+<div class="minimal-form-container">
+    <h2 class="minimal-subtitle">Eliminar Tarea</h2>
+    <form id="task-form" class="minimal-form minimal-form-delete">
+        <input type="number" name="id" placeholder="ID de la tarea a eliminar" required>
+        <button type="submit" class="btn-delete">Eliminar</button>
+    </form>
+</div>

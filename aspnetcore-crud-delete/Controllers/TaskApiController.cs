@@ -26,7 +26,7 @@ public class TaskApiController : ControllerBase
         return CreatedAtAction(nameof(GetTasks), new { id = task.Id });
     }
     [HttpDelete("{id}")]
-    public IActionResult DelateTask(int id)
+    public IActionResult DeleteTask(int id)
     {
         var task = _context.TaskLists.Find(id);
         if (task != null)

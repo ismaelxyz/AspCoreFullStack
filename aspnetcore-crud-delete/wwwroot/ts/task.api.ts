@@ -12,7 +12,7 @@ async function GetTasks(): Promise<void> {
     taskList.innerHTML = '';
     task.forEach(t => {
         const listItem = document.createElement('li');
-        listItem.textContent = `${t.title}: ${t.description}`;
+        listItem.textContent = ` ${t.id}/${t.title}: ${t.description}`;
         taskList.append(listItem)
     });
 }
@@ -30,28 +30,33 @@ async function PostTask(title: string, description: string): Promise<void> {
 }
 //funcion para eliminar una tarea
 async function DeleteTask(id: number): Promise<void> {
-    const reponse = await fetch('/Api/TaskApi', {
+    const reponse = await fetch(`/Api/TaskApi/${id}`, { //por que se pone las ``
         method: 'DELETE',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ id })
     });
     if (reponse.ok) {
         await GetTasks();
 
     }
-
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     GetTasks();
     const form = document.getElementById('task-form') as HTMLFormElement;
     form.addEventListener('submit', async (e) => {  //ver por que se pone async y =>
+        e.preventDefault();
         const formData = new FormData(form);
         const id = formData.get('id');
         await DeleteTask(Number(id));
-        await GetTasks();
+    })
+    const addForm = document.getElementById('add-task-form') as HTMLFormElement;
+    addForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const formData = new FormData(addForm);
+        const title = formData.get('title');
+        const description = formData.get('description');
+        await PostTask(String(title), String(description));
+        addForm.reset();
+
     })
 })
 

@@ -16,7 +16,7 @@ function GetTasks() {
         taskList.innerHTML = '';
         task.forEach(t => {
             const listItem = document.createElement('li');
-            listItem.textContent = `${t.title}: ${t.description}`;
+            listItem.textContent = ` ${t.id}/${t.title}: ${t.description}`;
             taskList.append(listItem);
         });
     });
@@ -38,12 +38,8 @@ function PostTask(title, description) {
 //funcion para eliminar una tarea
 function DeleteTask(id) {
     return __awaiter(this, void 0, void 0, function* () {
-        const reponse = yield fetch('/Api/TaskApi', {
+        const reponse = yield fetch(`/Api/TaskApi/${id}`, {
             method: 'DELETE',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ id })
         });
         if (reponse.ok) {
             yield GetTasks();
@@ -54,10 +50,19 @@ document.addEventListener('DOMContentLoaded', () => {
     GetTasks();
     const form = document.getElementById('task-form');
     form.addEventListener('submit', (e) => __awaiter(void 0, void 0, void 0, function* () {
+        e.preventDefault();
         const formData = new FormData(form);
         const id = formData.get('id');
         yield DeleteTask(Number(id));
-        yield GetTasks();
+    }));
+    const addForm = document.getElementById('add-task-form');
+    addForm.addEventListener('submit', (e) => __awaiter(void 0, void 0, void 0, function* () {
+        e.preventDefault();
+        const formData = new FormData(addForm);
+        const title = formData.get('title');
+        const description = formData.get('description');
+        yield PostTask(String(title), String(description));
+        addForm.reset();
     }));
 });
 export {};

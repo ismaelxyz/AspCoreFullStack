@@ -1,47 +1,149 @@
 body {
-        background: #111;
-        color: #eee;
-        font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
-        margin: 0;
-        min-height: 100vh;
-    }
-    .minimal-title {
-        text-align: center;
-        font-size: 2rem;
-        font-weight: 500;
-        margin-top: 2.5rem;
-        margin-bottom: 2.5rem;
-        color: #eee;
-    }
-    .minimal-task-container {
-        max-width: 480px;
-        margin: 0 auto;
-        background: #1c1c1c;
-        border-radius: 8px;
-        padding: 1rem;
-        border: 1px solid #333;
-    }
-    #task-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    #task-list li {
-        background: transparent;
-        margin-bottom: 0.5rem;
-        padding: 1rem 1.25rem;
-        border-radius: 5px;
-        font-size: 1.05rem;
-        color: #ccc;
-        display: flex;
-        align-items: center;
-        transition: background-color 0.2s ease, color 0.2s ease;
-        cursor: pointer;
-    }
-    #task-list li:last-child {
-        margin-bottom: 0;
-    }
-    #task-list li:hover {
-        background-color: #f4f4f4;
-        color: #111;
-    }
+    background: #111;
+    color: #eee;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.minimal-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #eee;
+}
+
+.minimal-task-container {
+    max-width: 480px;
+    margin: 0 auto;
+    background: #1c1c1c;
+    border-radius: 8px;
+    padding: 1rem;
+    border: 1px solid #333;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#task-list li {
+    background: transparent;
+    margin-bottom: 0.5rem;
+    padding: 1rem 1.25rem;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+}
+
+#task-list li:last-child {
+    margin-bottom: 0;
+}
+
+#task-list li:hover {
+    background-color: #f4f4f4;
+    color: #111;
+}
+
+.minimal-form-container {
+    max-width: 480px;
+    margin: 1.5rem auto 0;
+    background: #1c1c1c;
+    border-radius: 8px;
+    padding: 1.5rem;
+    border: 1px solid #333;
+}
+
+.minimal-subtitle {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #eee;
+}
+
+.minimal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.minimal-form.minimal-form-delete {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+}
+
+.minimal-form input[type="text"],
+.minimal-form input[type="number"] {
+    flex-grow: 1;
+    background: #222;
+    border: 1px solid #444;
+    color: #eee;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.minimal-form input[type="text"]:focus,
+.minimal-form input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.minimal-form input[type="number"] {
+    /* Safari, Chrome modernos y estándar */
+    appearance: textfield;
+
+    /* Firefox */
+    -moz-appearance: textfield;
+
+    /* Safari y Chrome antiguos */
+    -webkit-appearance: textfield;
+}
+
+.minimal-form input[type="number"] {
+    /* Safari, Chrome modernos y estándar */
+    appearance: textfield;
+
+    /* Firefox */
+    -moz-appearance: textfield;
+
+    /* Safari y Chrome antiguos */
+    -webkit-appearance: textfield;
+}
+
+.minimal-form input[type="number"]::-webkit-outer-spin-button,
+.minimal-form input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+#task-form button[type="submit"] {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#task-form button[type="submit"]:hover {
+    background-color: #c82333;
+}
