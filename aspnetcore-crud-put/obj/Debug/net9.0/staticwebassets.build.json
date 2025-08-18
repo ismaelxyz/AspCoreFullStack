@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "XzABkmLTvJXLo7Q8x5GqyLGqODSaMaxi8QKSD6wYdAI=",
+  "Source": "aspnetcore-crud-put",
+  "BasePath": "_content/aspnetcore-crud-put",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "aspnetcore-crud-put/wwwroot",
+      "Source": "aspnetcore-crud-put",
+      "ContentRoot": "/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/wwwroot/",
+      "BasePath": "_content/aspnetcore-crud-put",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
