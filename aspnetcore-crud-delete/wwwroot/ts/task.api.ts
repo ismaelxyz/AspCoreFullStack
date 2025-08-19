@@ -30,7 +30,7 @@ async function PostTask(title: string, description: string): Promise<void> {
 }
 //funcion para eliminar una tarea
 async function DeleteTask(id: number): Promise<void> {
-    const reponse = await fetch(`/Api/TaskApi/${id}`, { //por que se pone las ``
+    const reponse = await fetch(`/Api/TaskApi/${id}`, { 
         method: 'DELETE',
     });
     if (reponse.ok) {
@@ -41,7 +41,7 @@ async function DeleteTask(id: number): Promise<void> {
 
 function initDeleteForm():void {
     const form = document.getElementById('task-form') as HTMLFormElement;
-    form.addEventListener('submit', async (e) => {  //ver por que se pone async y =>
+    form.addEventListener('submit', async (e) => {  
         e.preventDefault();
         const formData = new FormData(form);
         const id = formData.get('id');
