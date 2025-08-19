@@ -20,7 +20,7 @@ public class UserApiController : ControllerBase
     [HttpGet("Search")]
     public IActionResult SearchUser([FromQuery] int? id, [FromQuery] string? name)
     {
-        var query = _context.Users.AsQueryable(); //repasar esto
+        IQueryable<User> query = _context.Users;
         if (id.HasValue)
         {
             query = query.Where(u => u.Id == id.Value);
