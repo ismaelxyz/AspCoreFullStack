@@ -7,7 +7,7 @@ interface ITask {
 //funcion para obtener las tareas
 async function GetTasks(): Promise<void> {
     const response = await fetch('/Api/TaskApi')
-    const task: ITask[] = await response.json(); //repasar por que se pone []
+    const task: ITask[] = await response.json();
     const taskList = document.getElementById('task-list') as HTMLUListElement;
     taskList.innerHTML = '';
     task.forEach(t => {
@@ -39,8 +39,7 @@ async function DeleteTask(id: number): Promise<void> {
     }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    GetTasks();
+function initDeleteForm():void {
     const form = document.getElementById('task-form') as HTMLFormElement;
     form.addEventListener('submit', async (e) => {  //ver por que se pone async y =>
         e.preventDefault();
@@ -48,7 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const id = formData.get('id');
         await DeleteTask(Number(id));
     })
-    const addForm = document.getElementById('add-task-form') as HTMLFormElement;
+}
+
+function initAddForm(): void{
+  const addForm = document.getElementById('add-task-form') as HTMLFormElement;
     addForm.addEventListener('submit', async (e) => {
         e.preventDefault();
         const formData = new FormData(addForm);
@@ -58,5 +60,12 @@ document.addEventListener('DOMContentLoaded', () => {
         addForm.reset();
 
     })
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    GetTasks();
+    initDeleteForm();
+    initAddForm();
+  
 })
 
