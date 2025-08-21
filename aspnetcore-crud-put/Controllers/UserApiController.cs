@@ -39,7 +39,7 @@ public class UserApiController : ControllerBase
         {
             _context.Users.Add(user);
             _context.SaveChanges();
-            return CreatedAtAction(nameof(GetUsers), new { id = user.Id }); //ver por que se pone id = user.Id
+            return CreatedAtAction(nameof(SearchUser), user);
         }
         return BadRequest(ModelState);
     }
