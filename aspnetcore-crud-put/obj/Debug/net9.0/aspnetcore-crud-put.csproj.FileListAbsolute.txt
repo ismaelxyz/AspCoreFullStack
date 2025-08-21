@@ -165,3 +165,11 @@
 /home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/obj/Debug/net9.0/aspnetcore-crud-put.pdb
 /home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/obj/Debug/net9.0/aspnetcore-crud-put.genruntimeconfig.cache
 /home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/obj/Debug/net9.0/ref/aspnetcore-crud-put.dll
+/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/obj/Debug/net9.0/aspnetcore-crud-put.RazorAssemblyInfo.cache
+/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/obj/Debug/net9.0/aspnetcore-crud-put.RazorAssemblyInfo.cs
+/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/bin/Debug/net9.0/package-lock.json
+/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/bin/Debug/net9.0/package.json
+/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/bin/Debug/net9.0/tsconfig.json
+/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/obj/Debug/net9.0/compressed/hd4dc2o0yo-xk1zm4iivw.gz
+/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/obj/Debug/net9.0/compressed/9wepchluc1-i31p0v2paj.gz
+/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/obj/Debug/net9.0/compressed/gnk056f4hu-gntikujhmz.gz
