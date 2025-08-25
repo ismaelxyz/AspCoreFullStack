@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/wwwroot/js/user.api.d.ts",
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put/wwwroot/js/user.api.d.ts",
       "PackagePath": "staticwebassets/js/user.api.d.ts"
     },
     {
-      "Id": "/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/wwwroot/js/user.api.d.ts.map",
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put/wwwroot/js/user.api.d.ts.map",
       "PackagePath": "staticwebassets/js/user.api.d.ts.map"
     },
     {
-      "Id": "/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/wwwroot/js/user.api.js",
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put/wwwroot/js/user.api.js",
       "PackagePath": "staticwebassets/js/user.api.js"
     },
     {
-      "Id": "/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/wwwroot/js/user.api.js.map",
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put/wwwroot/js/user.api.js.map",
       "PackagePath": "staticwebassets/js/user.api.js.map"
     },
     {
-      "Id": "/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/wwwroot/ts/user.api.ts",
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put/wwwroot/ts/user.api.ts",
       "PackagePath": "staticwebassets/ts/user.api.ts"
     },
     {

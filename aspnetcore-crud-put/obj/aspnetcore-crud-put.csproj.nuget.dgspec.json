@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/aspnetcore-crud-put.csproj": {}
+    "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put/aspnetcore-crud-put.csproj": {}
   },
   "projects": {
-    "/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/aspnetcore-crud-put.csproj": {
+    "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put/aspnetcore-crud-put.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/aspnetcore-crud-put.csproj",
+        "projectUniqueName": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put/aspnetcore-crud-put.csproj",
         "projectName": "aspnetcore-crud-put",
-        "projectPath": "/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/aspnetcore-crud-put.csproj",
+        "projectPath": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put/aspnetcore-crud-put.csproj",
         "packagesPath": "/home/crazy/.nuget/packages/",
-        "outputPath": "/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/obj/",
+        "outputPath": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/crazy/.nuget/NuGet/NuGet.Config"
@@ -73,7 +73,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.7, 9.0.7]"
+              "version": "[9.0.8, 9.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

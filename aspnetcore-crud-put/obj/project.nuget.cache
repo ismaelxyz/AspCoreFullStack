@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lbvsx9QO5l8=",
+  "dgSpecHash": "qIetdqeZv+0=",
   "success": true,
-  "projectFilePath": "/home/crazy/Documents/Dev/AspCoreFullStack/aspnetcore-crud-put/aspnetcore-crud-put.csproj",
+  "projectFilePath": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put/aspnetcore-crud-put.csproj",
   "expectedPackageFiles": [
     "/home/crazy/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/crazy/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
@@ -85,7 +85,7 @@
     "/home/crazy/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
     "/home/crazy/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/home/crazy/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
-    "/home/crazy/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.7/microsoft.aspnetcore.app.ref.9.0.7.nupkg.sha512"
+    "/home/crazy/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
   ],
   "logs": []
 }
