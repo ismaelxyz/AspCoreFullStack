@@ -51,12 +51,10 @@ async function initUserSearchForm() {
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
         const formData = new FormData(form);
-        const idValue = formData.get('id')?.toString().trim(); //trim:Elimina espacios en blanco al inicio y final.
-        const nameValue = formData.get('name')?.toString().trim();
-
-        const id = idValue ? parseInt(idValue, 10) : undefined; //estudiar esta linea 
-        const name = nameValue && nameValue.length > 0 ? nameValue : undefined;//estudiar esta linea 
-
+        const idValue = formData.get('id')?.toString()?.trim(); //trim:Elimina espacios en blanco al inicio y final.
+        const nameValue = formData.get('name')?.toString()?.trim();
+        const id = idValue ? parseInt(idValue, 10) : undefined; 
+        const name = nameValue && nameValue.length > 0 ? nameValue : undefined;
         const params = new URLSearchParams();//estudiar esta linea
         if (id) params.append('id', id.toString());//estudiar esta linea
         if (name) params.append('name', name); //estudiar esta linea
