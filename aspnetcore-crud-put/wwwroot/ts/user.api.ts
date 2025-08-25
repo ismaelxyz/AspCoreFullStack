@@ -5,7 +5,7 @@ interface User {
     password: string;
 }
 async function createUser(name: string, email: string, password: string): Promise<void> {
-    const response = await fetch('/APi/UserApi', {
+    const response = await fetch('/API/UserApi', {
         method: 'POST',
 
         headers: {
@@ -18,7 +18,8 @@ async function createUser(name: string, email: string, password: string): Promis
     }
 }
 async function getUsers(usersToShow?: User[]) { //estudiar esta linea
-    const users: User[] = usersToShow ?? await (await fetch('/APi/UserApi')).json(); //estudiar esta linea
+    const response = await fetch('/API/UserAPi');
+    const users:User[] = usersToShow ?? await response.json(); 
     const userlist = document.getElementById('user-list') as HTMLUListElement
     userlist.innerHTML = ''; // Clear existing list
     users.forEach(u => {
@@ -59,7 +60,7 @@ async function initUserForm() {
         const params = new URLSearchParams();//estudiar esta linea
         if (id) params.append('id', id.toString());//estudiar esta linea
         if (name) params.append('name', name); //estudiar esta linea
-        const response = await fetch(`/APi/UserApi/Search?${params.toString()}`); //estudiar por que se pone paramas.ToString()
+        const response = await fetch(`/API/UserApi/Search?${params.toString()}`); //estudiar por que se pone paramas.ToString()
         const filteredUsers: User[] = await response.json();
         getUsers(filteredUsers); //estudiar esta linea de por que se envia como parametro filteredUsers
 
