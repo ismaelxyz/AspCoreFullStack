@@ -17,11 +17,11 @@ async function createUser(name: string, email: string, password: string): Promis
         await getUsers();
     }
 }
-async function getUsers(usersToShow?: User[]) { //estudiar esta linea
+async function getUsers(usersToShow?: User[]) { 
     const response = await fetch('/API/UserAPi');
-    const users:User[] = usersToShow ?? await response.json(); 
+    const users: User[] = usersToShow ?? await response.json();
     const userlist = document.getElementById('user-list') as HTMLUListElement
-    userlist.innerHTML = ''; // Clear existing list
+    userlist.innerHTML = '';
     users.forEach(u => {
         const li = document.createElement('li');
         li.textContent = `Id: ${u.id},Nombre: ${u.name} , Email: (${u.email})`;
@@ -46,13 +46,13 @@ async function initUserFormCreate() {
 }
 
 
-async function initUserForm() {
-    const form = document.getElementById('user-form') as HTMLFormElement;
+async function initUserSearchForm() {
+    const form = document.getElementById('user-search-form') as HTMLFormElement;
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
         const formData = new FormData(form);
-        const idValue = formData.get('id')?.toString().trim(); //estudiar lo de ?.toString().trim()
-        const nameValue = formData.get('name')?.toString().trim();//estudiar lo de ?.toString().trim()
+        const idValue = formData.get('id')?.toString().trim(); //trim:Elimina espacios en blanco al inicio y final.
+        const nameValue = formData.get('name')?.toString().trim();
 
         const id = idValue ? parseInt(idValue, 10) : undefined; //estudiar esta linea 
         const name = nameValue && nameValue.length > 0 ? nameValue : undefined;//estudiar esta linea 
@@ -64,14 +64,11 @@ async function initUserForm() {
         const filteredUsers: User[] = await response.json();
         getUsers(filteredUsers); //estudiar esta linea de por que se envia como parametro filteredUsers
 
-
-
     });
-
 }
 
 document.addEventListener("DOMContentLoaded", () => {
     getUsers();
     initUserFormCreate();
-    initUserForm();
+    initUserSearchForm();
 });

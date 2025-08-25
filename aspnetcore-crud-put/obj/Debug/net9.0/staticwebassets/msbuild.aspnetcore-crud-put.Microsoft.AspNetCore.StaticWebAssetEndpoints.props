@@ -48,17 +48,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9jiRoTLRRAYl2FklUfK0dfqlwd7Mi4onhRKPitnPjeI="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2705"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u00229jiRoTLRRAYl2FklUfK0dfqlwd7Mi4onhRKPitnPjeI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 Aug 2025 23:53:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/aspnetcore-crud-put/ts/user.api.2f1iey8ufw.ts">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ts\user.api.ts'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2f1iey8ufw"},{"Name":"integrity","Value":"sha256-rm0w48TKN119x2XOR6T/1kSKSbCDJyw6DOljsgHVxDU="},{"Name":"label","Value":"_content/aspnetcore-crud-put/ts/user.api.ts"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2719"},{"Name":"Content-Type","Value":"video/vnd.dlna.mpeg-tts"},{"Name":"ETag","Value":"\u0022rm0w48TKN119x2XOR6T/1kSKSbCDJyw6DOljsgHVxDU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 Aug 2025 23:53:21 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/aspnetcore-crud-put/ts/user.api.ts">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ts\user.api.ts'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rm0w48TKN119x2XOR6T/1kSKSbCDJyw6DOljsgHVxDU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2719"},{"Name":"Content-Type","Value":"video/vnd.dlna.mpeg-tts"},{"Name":"ETag","Value":"\u0022rm0w48TKN119x2XOR6T/1kSKSbCDJyw6DOljsgHVxDU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 Aug 2025 23:53:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-S4qq\u002BxMr2u70FsAj9Zq9GDdbfAq69\u002B2OnvkrcGONxY4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2697"},{"Name":"Content-Type","Value":"video/vnd.dlna.mpeg-tts"},{"Name":"ETag","Value":"\u0022S4qq\u002BxMr2u70FsAj9Zq9GDdbfAq69\u002B2OnvkrcGONxY4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Aug 2025 03:34:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/aspnetcore-crud-put/ts/user.api.x9h5zzets8.ts">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ts\user.api.ts'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x9h5zzets8"},{"Name":"integrity","Value":"sha256-S4qq\u002BxMr2u70FsAj9Zq9GDdbfAq69\u002B2OnvkrcGONxY4="},{"Name":"label","Value":"_content/aspnetcore-crud-put/ts/user.api.ts"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2697"},{"Name":"Content-Type","Value":"video/vnd.dlna.mpeg-tts"},{"Name":"ETag","Value":"\u0022S4qq\u002BxMr2u70FsAj9Zq9GDdbfAq69\u002B2OnvkrcGONxY4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Aug 2025 03:34:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
