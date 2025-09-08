@@ -1,0 +1,6 @@
+@aspnetcore_crud_put_validations_HostAddress = http://localhost:5117
+
+GET {{aspnetcore_crud_put_validations_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
