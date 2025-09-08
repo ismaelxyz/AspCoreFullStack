@@ -23,7 +23,7 @@ public class UserApiController : ControllerBase
         IQueryable<User> query = _context.Users;
         if (id.HasValue)
         {
-            query = query.Where(u => u.Id == id.Value);
+            query = query.Where(u => u.Id == id);
         }
         if (!string.IsNullOrEmpty(name))
         {

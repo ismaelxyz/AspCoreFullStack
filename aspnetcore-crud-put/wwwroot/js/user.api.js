@@ -58,16 +58,16 @@ function initUserSearchForm() {
             const formData = new FormData(form);
             const idValue = (_b = (_a = formData.get('id')) === null || _a === void 0 ? void 0 : _a.toString()) === null || _b === void 0 ? void 0 : _b.trim(); //trim:Elimina espacios en blanco al inicio y final.
             const nameValue = (_d = (_c = formData.get('name')) === null || _c === void 0 ? void 0 : _c.toString()) === null || _d === void 0 ? void 0 : _d.trim();
-            const id = idValue ? parseInt(idValue, 10) : undefined;
+            const id = idValue ? idValue : undefined;
             const name = nameValue && nameValue.length > 0 ? nameValue : undefined;
-            const params = new URLSearchParams(); //estudiar esta linea
+            const params = new URLSearchParams();
             if (id)
-                params.append('id', id.toString()); //estudiar esta linea
+                params.append('id', id);
             if (name)
-                params.append('name', name); //estudiar esta linea
-            const response = yield fetch(`/Api/UserApi/Search?${params.toString()}`); //estudiar por que se pone paramas.ToString()
+                params.append('name', name);
+            const response = yield fetch(`/Api/UserApi/Search?${params}`);
             const filteredUsers = yield response.json();
-            getUsers(filteredUsers); //estudiar esta linea de por que se envia como parametro filteredUsers
+            getUsers(filteredUsers);
         }));
     });
 }

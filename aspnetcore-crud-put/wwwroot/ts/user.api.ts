@@ -52,14 +52,14 @@ async function initUserSearchForm() {
         const formData = new FormData(form);
         const idValue = formData.get('id')?.toString()?.trim(); //trim:Elimina espacios en blanco al inicio y final.
         const nameValue = formData.get('name')?.toString()?.trim();
-        const id = idValue ? parseInt(idValue, 10) : undefined; 
+        const id = idValue ? idValue : undefined; 
         const name = nameValue && nameValue.length > 0 ? nameValue : undefined;
-        const params = new URLSearchParams();//estudiar esta linea
-        if (id) params.append('id', id.toString());//estudiar esta linea
-        if (name) params.append('name', name); //estudiar esta linea
-        const response = await fetch(`/Api/UserApi/Search?${params.toString()}`); //estudiar por que se pone paramas.ToString()
+        const params = new URLSearchParams();
+        if (id) params.append('id', id);
+        if (name) params.append('name', name); 
+        const response = await fetch(`/Api/UserApi/Search?${params}`); 
         const filteredUsers: User[] = await response.json();
-        getUsers(filteredUsers); //estudiar esta linea de por que se envia como parametro filteredUsers
+        getUsers(filteredUsers); 
 
     });
 }
