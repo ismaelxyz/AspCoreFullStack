@@ -3,7 +3,7 @@ namespace aspnetcore_crud_put.COntrollers;
 using aspnetcore_crud_put.Models;
 using Microsoft.AspNetCore.Mvc;
 [ApiController]
-[Route("API/[controller]")]
+[Route("Api/[controller]")]
 public class UserApiController : ControllerBase
 {
     private readonly UserDbContext _context;

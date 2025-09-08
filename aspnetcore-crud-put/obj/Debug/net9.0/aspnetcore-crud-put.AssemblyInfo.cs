@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aspnetcore-crud-put")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c27bdc1f313b5a683a3efdd95e16e4d936ce36f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c881f4ed146d3bd951dac0632319a3b2655fdce")]
 [assembly: System.Reflection.AssemblyProductAttribute("aspnetcore-crud-put")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aspnetcore-crud-put")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

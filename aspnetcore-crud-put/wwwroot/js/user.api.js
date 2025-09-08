@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 function createUser(name, email, password) {
     return __awaiter(this, void 0, void 0, function* () {
-        const response = yield fetch('/APi/UserApi', {
+        const response = yield fetch('/Api/UserApi', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -23,12 +23,13 @@ function createUser(name, email, password) {
 }
 function getUsers(usersToShow) {
     return __awaiter(this, void 0, void 0, function* () {
-        const users = usersToShow !== null && usersToShow !== void 0 ? usersToShow : yield (yield fetch('/APi/UserApi')).json(); //estudiar esta linea
+        const response = yield fetch('/Api/UserAPi');
+        const users = usersToShow !== null && usersToShow !== void 0 ? usersToShow : yield response.json();
         const userlist = document.getElementById('user-list');
-        userlist.innerHTML = ''; // Clear existing list
+        userlist.innerHTML = ''; //limpiar lista antes de actualizarla
         users.forEach(u => {
             const li = document.createElement('li');
-            li.textContent = `Id: ${u.id},Nombre: ${u.name} , Email: (${u.email})`;
+            li.textContent = `Id: ${u.id},Nombre: ${u.name} , Email: ${u.email}`;
             userlist.appendChild(li);
         });
     });
@@ -37,33 +38,34 @@ function initUserFormCreate() {
     return __awaiter(this, void 0, void 0, function* () {
         const form = document.getElementById('user-form-create');
         form.addEventListener('submit', (e) => __awaiter(this, void 0, void 0, function* () {
+            var _a, _b, _c;
             e.preventDefault();
             const formData = new FormData(form);
-            const name = formData.get('name');
-            const email = formData.get('email');
-            const password = formData.get('password');
-            yield createUser(name, email, password);
+            const name = (_a = formData.get('name')) === null || _a === void 0 ? void 0 : _a.toString();
+            const email = (_b = formData.get('email')) === null || _b === void 0 ? void 0 : _b.toString();
+            const password = (_c = formData.get('password')) === null || _c === void 0 ? void 0 : _c.toString();
+            yield createUser(name.trim(), email.trim(), password.trim());
             form.reset();
         }));
     });
 }
-function initUserForm() {
+function initUserSearchForm() {
     return __awaiter(this, void 0, void 0, function* () {
-        const form = document.getElementById('user-form');
+        const form = document.getElementById('user-search-form');
         form.addEventListener('submit', (e) => __awaiter(this, void 0, void 0, function* () {
-            var _a, _b;
+            var _a, _b, _c, _d;
             e.preventDefault();
             const formData = new FormData(form);
-            const idValue = (_a = formData.get('id')) === null || _a === void 0 ? void 0 : _a.toString().trim(); //estudiar lo de ?.toString().trim()
-            const nameValue = (_b = formData.get('name')) === null || _b === void 0 ? void 0 : _b.toString().trim(); //estudiar lo de ?.toString().trim()
-            const id = idValue ? parseInt(idValue, 10) : undefined; //estudiar esta linea 
-            const name = nameValue && nameValue.length > 0 ? nameValue : undefined; //estudiar esta linea 
+            const idValue = (_b = (_a = formData.get('id')) === null || _a === void 0 ? void 0 : _a.toString()) === null || _b === void 0 ? void 0 : _b.trim(); //trim:Elimina espacios en blanco al inicio y final.
+            const nameValue = (_d = (_c = formData.get('name')) === null || _c === void 0 ? void 0 : _c.toString()) === null || _d === void 0 ? void 0 : _d.trim();
+            const id = idValue ? parseInt(idValue, 10) : undefined;
+            const name = nameValue && nameValue.length > 0 ? nameValue : undefined;
             const params = new URLSearchParams(); //estudiar esta linea
             if (id)
                 params.append('id', id.toString()); //estudiar esta linea
             if (name)
                 params.append('name', name); //estudiar esta linea
-            const response = yield fetch(`/APi/UserApi/Search?${params.toString()}`); //estudiar por que se pone paramas.ToString()
+            const response = yield fetch(`/Api/UserApi/Search?${params.toString()}`); //estudiar por que se pone paramas.ToString()
             const filteredUsers = yield response.json();
             getUsers(filteredUsers); //estudiar esta linea de por que se envia como parametro filteredUsers
         }));
@@ -72,7 +74,7 @@ function initUserForm() {
 document.addEventListener("DOMContentLoaded", () => {
     getUsers();
     initUserFormCreate();
-    initUserForm();
+    initUserSearchForm();
 });
 export {};
 //# sourceMappingURL=user.api.js.map

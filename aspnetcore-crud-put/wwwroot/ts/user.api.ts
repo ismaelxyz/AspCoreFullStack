@@ -5,7 +5,7 @@ interface User {
     password: string;
 }
 async function createUser(name: string, email: string, password: string): Promise<void> {
-    const response = await fetch('/API/UserApi', {
+    const response = await fetch('/Api/UserApi', {
         method: 'POST',
 
         headers: {
@@ -18,17 +18,17 @@ async function createUser(name: string, email: string, password: string): Promis
     }
 }
 async function getUsers(usersToShow?: User[]) { 
-    const response = await fetch('/API/UserAPi');
+    const response = await fetch('/Api/UserAPi');
     const users: User[] = usersToShow ?? await response.json();
     const userlist = document.getElementById('user-list') as HTMLUListElement
-    userlist.innerHTML = '';
+    userlist.innerHTML = ''; //limpiar lista antes de actualizarla
     users.forEach(u => {
         const li = document.createElement('li');
-        li.textContent = `Id: ${u.id},Nombre: ${u.name} , Email: (${u.email})`;
+        li.textContent = `Id: ${u.id},Nombre: ${u.name} , Email: ${u.email}`;
         userlist.appendChild(li)
     })
 
-}
+}   
 
 
 async function initUserFormCreate() {
@@ -36,15 +36,14 @@ async function initUserFormCreate() {
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
         const formData = new FormData(form);
-        const name = formData.get('name') as string;
-        const email = formData.get('email') as string;
-        const password = formData.get('password') as string;
-        await createUser(name, email, password);
+        const name = formData.get('name')?.toString()!;
+        const email = formData.get('email')?.toString()!;
+        const password = formData.get('password')?.toString()!;
+        await createUser(name.trim(), email.trim() ,password.trim());
         form.reset();
 
     })
 }
-
 
 async function initUserSearchForm() {
     const form = document.getElementById('user-search-form') as HTMLFormElement;
@@ -58,7 +57,7 @@ async function initUserSearchForm() {
         const params = new URLSearchParams();//estudiar esta linea
         if (id) params.append('id', id.toString());//estudiar esta linea
         if (name) params.append('name', name); //estudiar esta linea
-        const response = await fetch(`/API/UserApi/Search?${params.toString()}`); //estudiar por que se pone paramas.ToString()
+        const response = await fetch(`/Api/UserApi/Search?${params.toString()}`); //estudiar por que se pone paramas.ToString()
         const filteredUsers: User[] = await response.json();
         getUsers(filteredUsers); //estudiar esta linea de por que se envia como parametro filteredUsers
 
