@@ -1,4 +1,3 @@
-using System.Reflection.Metadata.Ecma335;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
@@ -27,5 +26,21 @@ public class UserApiController : ControllerBase
         }
         return BadRequest(ModelState);
     }
+    [HttpGet("Search")]
+    public IActionResult SearchUsers([FromQuery] string? correo, [FromQuery] string? password)
+    {
+        IQueryable<User> query = _context.Users;
+        if (!string.IsNullOrWhiteSpace(correo))
+        {
+            query = query.Where(u => u.Email != null && u.Email.Contains(correo));
+        }
+        var users = query.ToList();
+        return Ok(users);
+        
+    }
+    
+        
+    
+
 
 }

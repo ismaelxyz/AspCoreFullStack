@@ -166,3 +166,12 @@
 /home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/bin/Debug/net9.0/Sentry.AspNetCore.dll
 /home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/bin/Debug/net9.0/Sentry.Extensions.Logging.dll
 /home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/Sentry.Attributes.cs
+/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/aspnetcore-crud-put-validations.RazorAssemblyInfo.cache
+/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/aspnetcore-crud-put-validations.RazorAssemblyInfo.cs
+/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/bin/Debug/net9.0/package-lock.json
+/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/bin/Debug/net9.0/package.json
+/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/bin/Debug/net9.0/tsconfig.json
+/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/bin/Debug/net9.0/aspnetcore-crud-put-validations.staticwebassets.runtime.json
+/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/beczzcm2zw-xk1zm4iivw.gz
+/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/l44rafymyw-bkr4734vmz.gz
+/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/1wno1hb3cw-dpj2c6r0rm.gz

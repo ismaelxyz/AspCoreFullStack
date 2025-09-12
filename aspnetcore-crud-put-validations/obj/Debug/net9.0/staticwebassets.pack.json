@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/user.api.d.ts",
+      "PackagePath": "staticwebassets/js/user.api.d.ts"
+    },
+    {
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/user.api.d.ts.map",
+      "PackagePath": "staticwebassets/js/user.api.d.ts.map"
+    },
+    {
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/user.api.js",
+      "PackagePath": "staticwebassets/js/user.api.js"
+    },
+    {
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/user.api.js.map",
+      "PackagePath": "staticwebassets/js/user.api.js.map"
+    },
+    {
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/ts/user.api.ts",
+      "PackagePath": "staticwebassets/ts/user.api.ts"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.aspnetcore-crud-put-validations.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.aspnetcore-crud-put-validations.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.aspnetcore-crud-put-validations.props",
+      "PackagePath": "build\\aspnetcore-crud-put-validations.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.aspnetcore-crud-put-validations.props",
+      "PackagePath": "buildMultiTargeting\\aspnetcore-crud-put-validations.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.aspnetcore-crud-put-validations.props",
+      "PackagePath": "buildTransitive\\aspnetcore-crud-put-validations.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
