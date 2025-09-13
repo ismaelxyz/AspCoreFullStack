@@ -8,6 +8,13 @@
             background-color: black;
             color: white;
         }
+
+        .search {
+            width: 500px;
+            height: 200px;
+            margin: auto;
+
+        }
     </style>
 </div>
 <div class="listaUser">
@@ -18,10 +25,19 @@
     <h1>crear cuenta</h1>
     <form id="login-form">
         <h1>Correo</h1>
-        <input type="text" name="correo">
+        <input type="text" name="email" placeholder="correo" required>
         <h1>password</h1>
-        <input type="password" name="password">
+        <input type="password" name="password" required>
         <br>
         <button type="submit">OWO</button>
     </form>
 </div>
+<br>
+<div class="search-form-conteiner">
+    <h1>Buscar usuario</h1>
+    <form id="search-form">
+        <h1>Correo</h1>
+        <input type="text" name="email" placeholder="correo">
+        <br>
+        <button type="submit">Buscar</button>
+    </form>

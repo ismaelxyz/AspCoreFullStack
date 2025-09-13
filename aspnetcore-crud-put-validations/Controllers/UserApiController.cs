@@ -27,7 +27,7 @@ public class UserApiController : ControllerBase
         return BadRequest(ModelState);
     }
     [HttpGet("Search")]
-    public IActionResult SearchUsers([FromQuery] string? correo, [FromQuery] string? password)
+    public IActionResult SearchUsers([FromQuery] string? correo)
     {
         IQueryable<User> query = _context.Users;
         if (!string.IsNullOrWhiteSpace(correo))
