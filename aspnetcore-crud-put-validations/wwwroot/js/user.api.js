@@ -7,6 +7,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+import { validateEmail, validatePassword } from './validation.js';
 function getUsers(searchUser) {
     return __awaiter(this, void 0, void 0, function* () {
         const response = yield fetch('/Api/UserApi');
@@ -38,12 +39,27 @@ function addUsers(email, password) {
 function addUser() {
     return __awaiter(this, void 0, void 0, function* () {
         const form = document.getElementById('login-form');
+        const emailError = document.getElementById('email-error');
+        const passwordError = document.getElementById('password-error');
         form.addEventListener('submit', (e) => __awaiter(this, void 0, void 0, function* () {
             var _a, _b;
             e.preventDefault();
+            emailError.textContent = '';
+            passwordError.textContent = '';
             const formData = new FormData(form);
             const email = (_a = formData.get('email')) === null || _a === void 0 ? void 0 : _a.toString().trim();
             const password = (_b = formData.get('password')) === null || _b === void 0 ? void 0 : _b.toString().trim();
+            let hasError = false;
+            if (!validateEmail(email)) {
+                emailError.textContent = 'Correo inválido';
+                hasError = true;
+            }
+            if (!validatePassword(password)) {
+                passwordError.textContent = 'La contraseña debe tener al menos 6 caracteres';
+                hasError = true;
+            }
+            if (hasError)
+                return;
             yield addUsers(email, password);
             form.reset();
         }));
@@ -73,5 +89,4 @@ document.addEventListener('DOMContentLoaded', () => {
     addUser();
     searchUser();
 });
-export {};
 //# sourceMappingURL=user.api.js.map

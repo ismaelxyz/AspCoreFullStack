@@ -17,8 +17,28 @@
       "PackagePath": "staticwebassets/js/user.api.js.map"
     },
     {
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/validation.d.ts",
+      "PackagePath": "staticwebassets/js/validation.d.ts"
+    },
+    {
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/validation.d.ts.map",
+      "PackagePath": "staticwebassets/js/validation.d.ts.map"
+    },
+    {
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/validation.js",
+      "PackagePath": "staticwebassets/js/validation.js"
+    },
+    {
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/validation.js.map",
+      "PackagePath": "staticwebassets/js/validation.js.map"
+    },
+    {
       "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/ts/user.api.ts",
       "PackagePath": "staticwebassets/ts/user.api.ts"
+    },
+    {
+      "Id": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/ts/validation.ts",
+      "PackagePath": "staticwebassets/ts/validation.ts"
     },
     {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.aspnetcore-crud-put-validations.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

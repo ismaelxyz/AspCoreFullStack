@@ -1,3 +1,5 @@
+import { validateEmail, validatePassword } from './validation.js';
+
 interface User {
     id?: number;
     email?: string;
@@ -33,15 +35,30 @@ async function addUsers(email: string, password: string): Promise<void> {
 
 async function addUser(): Promise<void> {
     const form = document.getElementById('login-form') as HTMLFormElement;
-    form.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const formData = new FormData(form);
-        const email = formData.get('email')?.toString().trim()!;
-        const password = formData.get('password')?.toString().trim()!;
-        await addUsers(email, password);
-        form.reset();
-    })
+        const emailError = document.getElementById('email-error') as HTMLSpanElement;
+        const passwordError = document.getElementById('password-error') as HTMLSpanElement;
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            emailError.textContent = '';
+            passwordError.textContent = '';
+            const formData = new FormData(form);
+            const email = formData.get('email')?.toString().trim()!;
+            const password = formData.get('password')?.toString().trim()!;
 
+            let hasError = false;
+            if (!validateEmail(email)) {
+                emailError.textContent = 'Correo inválido';
+                hasError = true;
+            }
+            if (!validatePassword(password)) {
+                passwordError.textContent = 'La contraseña debe tener al menos 6 caracteres';
+                hasError = true;
+            }
+            if (hasError) return;
+
+            await addUsers(email, password);
+            form.reset();
+        });
 }
 async function searchUser(): Promise<void> {
     const form = document.getElementById('search-form') as HTMLFormElement;
