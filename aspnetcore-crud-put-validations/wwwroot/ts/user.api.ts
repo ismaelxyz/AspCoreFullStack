@@ -31,34 +31,35 @@ async function addUsers(email: string, password: string): Promise<void> {
         await getUsers();
     }
 }
-
+function showValidationErrors(email: string, password: string, emailError: HTMLSpanElement, passwordError: HTMLSpanElement): void {
+    emailError.textContent = '';
+    passwordError.textContent = '';
+    // Validar email
+    if (!validateEmail(email)) {
+        emailError.textContent = 'Correo inválido';
+    }
+    // Validar password
+    if (!validatePassword(password)) {
+        passwordError.textContent = 'La contraseña debe tener al menos 6 caracteres';
+    }
+}
 
 async function addUser(): Promise<void> {
     const form = document.getElementById('login-form') as HTMLFormElement;
-        const emailError = document.getElementById('email-error') as HTMLSpanElement;
-        const passwordError = document.getElementById('password-error') as HTMLSpanElement;
-        form.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            emailError.textContent = '';
-            passwordError.textContent = '';
-            const formData = new FormData(form);
-            const email = formData.get('email')?.toString().trim()!;
-            const password = formData.get('password')?.toString().trim()!;
+    const emailError = document.getElementById('email-error') as HTMLSpanElement;
+    const passwordError = document.getElementById('password-error') as HTMLSpanElement;
+    
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
 
-            let hasError = false;
-            if (!validateEmail(email)) {
-                emailError.textContent = 'Correo inválido';
-                hasError = true;
-            }
-            if (!validatePassword(password)) {
-                passwordError.textContent = 'La contraseña debe tener al menos 6 caracteres';
-                hasError = true;
-            }
-            if (hasError) return;
+        const formData = new FormData(form);
+        const email = formData.get('email')?.toString().trim() || ''!;
+        const password = formData.get('password')?.toString().trim() || ''!;
 
-            await addUsers(email, password);
-            form.reset();
-        });
+
+        await addUsers(email, password);
+        form.reset();
+    });
 }
 async function searchUser(): Promise<void> {
     const form = document.getElementById('search-form') as HTMLFormElement;

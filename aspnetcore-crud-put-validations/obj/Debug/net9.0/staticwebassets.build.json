@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OdqG87x20Fk3FLWPfWQ+wyz+oOy1t1kxkG7Wmp9iUuw=",
+  "Hash": "xrtNZLfBaHmhKXyc8qYn906RXz2UZoSAkt7IfZcLY1g=",
   "Source": "aspnetcore-crud-put-validations",
   "BasePath": "_content/aspnetcore-crud-put-validations",
   "Mode": "Default",
@@ -325,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bnq7sorxeu",
-      "Integrity": "WZFaSgrJf6vxFp3j4EqH0WYHUygiwOrWp7DYRYbSubY=",
+      "Fingerprint": "e13nj2nmk0",
+      "Integrity": "3mWLn242ir3qaPJBQTSL5JuDlqgXalr1ss2YZcfsKvo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/ts/user.api.ts"
@@ -2307,7 +2307,7 @@
       ]
     },
     {
-      "Route": "ts/user.api.bnq7sorxeu.ts",
+      "Route": "ts/user.api.e13nj2nmk0.ts",
       "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/ts/user.api.ts",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2317,7 +2317,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2959"
+          "Value": "2900"
         },
         {
           "Name": "Content-Type",
@@ -2325,11 +2325,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WZFaSgrJf6vxFp3j4EqH0WYHUygiwOrWp7DYRYbSubY=\""
+          "Value": "\"3mWLn242ir3qaPJBQTSL5JuDlqgXalr1ss2YZcfsKvo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 13 Sep 2025 01:11:49 GMT"
+          "Value": "Sun, 14 Sep 2025 04:48:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2339,7 +2339,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bnq7sorxeu"
+          "Value": "e13nj2nmk0"
         },
         {
           "Name": "label",
@@ -2347,7 +2347,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WZFaSgrJf6vxFp3j4EqH0WYHUygiwOrWp7DYRYbSubY="
+          "Value": "sha256-3mWLn242ir3qaPJBQTSL5JuDlqgXalr1ss2YZcfsKvo="
         }
       ]
     },
@@ -2362,7 +2362,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2959"
+          "Value": "2900"
         },
         {
           "Name": "Content-Type",
@@ -2370,11 +2370,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WZFaSgrJf6vxFp3j4EqH0WYHUygiwOrWp7DYRYbSubY=\""
+          "Value": "\"3mWLn242ir3qaPJBQTSL5JuDlqgXalr1ss2YZcfsKvo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 13 Sep 2025 01:11:49 GMT"
+          "Value": "Sun, 14 Sep 2025 04:48:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2384,7 +2384,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WZFaSgrJf6vxFp3j4EqH0WYHUygiwOrWp7DYRYbSubY="
+          "Value": "sha256-3mWLn242ir3qaPJBQTSL5JuDlqgXalr1ss2YZcfsKvo="
         }
       ]
     },

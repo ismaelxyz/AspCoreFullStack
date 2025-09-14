@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aspnetcore-crud-put-validations")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb9e4bd0ea1b1ba94366f124033f97d6f40e720e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+221781a8b345ad260a52d65e866409acf6491061")]
 [assembly: System.Reflection.AssemblyProductAttribute("aspnetcore-crud-put-validations")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aspnetcore-crud-put-validations")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

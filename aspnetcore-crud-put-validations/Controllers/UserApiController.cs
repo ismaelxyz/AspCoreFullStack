@@ -36,8 +36,9 @@ public class UserApiController : ControllerBase
         }
         var users = query.ToList();
         return Ok(users);
-        
+
     }
+    
     
         
     

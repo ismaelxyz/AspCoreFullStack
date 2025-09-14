@@ -96,17 +96,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sfuc5ej93x"},{"Name":"integrity","Value":"sha256-6E2caXs9N0bDbHIwIa9e0nAdUi8kDYLe0vLdE\u002BMsfDI="},{"Name":"label","Value":"_content/aspnetcore-crud-put-validations/js/validation.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"385"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00226E2caXs9N0bDbHIwIa9e0nAdUi8kDYLe0vLdE\u002BMsfDI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 13 Sep 2025 01:01:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/aspnetcore-crud-put-validations/ts/user.api.bnq7sorxeu.ts">
+    <StaticWebAssetEndpoint Include="_content/aspnetcore-crud-put-validations/ts/user.api.e13nj2nmk0.ts">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ts\user.api.ts'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bnq7sorxeu"},{"Name":"integrity","Value":"sha256-WZFaSgrJf6vxFp3j4EqH0WYHUygiwOrWp7DYRYbSubY="},{"Name":"label","Value":"_content/aspnetcore-crud-put-validations/ts/user.api.ts"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2959"},{"Name":"Content-Type","Value":"video/vnd.dlna.mpeg-tts"},{"Name":"ETag","Value":"\u0022WZFaSgrJf6vxFp3j4EqH0WYHUygiwOrWp7DYRYbSubY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 13 Sep 2025 01:11:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e13nj2nmk0"},{"Name":"integrity","Value":"sha256-3mWLn242ir3qaPJBQTSL5JuDlqgXalr1ss2YZcfsKvo="},{"Name":"label","Value":"_content/aspnetcore-crud-put-validations/ts/user.api.ts"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2900"},{"Name":"Content-Type","Value":"video/vnd.dlna.mpeg-tts"},{"Name":"ETag","Value":"\u00223mWLn242ir3qaPJBQTSL5JuDlqgXalr1ss2YZcfsKvo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 14 Sep 2025 04:48:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/aspnetcore-crud-put-validations/ts/user.api.ts">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ts\user.api.ts'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WZFaSgrJf6vxFp3j4EqH0WYHUygiwOrWp7DYRYbSubY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2959"},{"Name":"Content-Type","Value":"video/vnd.dlna.mpeg-tts"},{"Name":"ETag","Value":"\u0022WZFaSgrJf6vxFp3j4EqH0WYHUygiwOrWp7DYRYbSubY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 13 Sep 2025 01:11:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3mWLn242ir3qaPJBQTSL5JuDlqgXalr1ss2YZcfsKvo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2900"},{"Name":"Content-Type","Value":"video/vnd.dlna.mpeg-tts"},{"Name":"ETag","Value":"\u00223mWLn242ir3qaPJBQTSL5JuDlqgXalr1ss2YZcfsKvo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 14 Sep 2025 04:48:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/aspnetcore-crud-put-validations/ts/validation.rijwn5fguv.ts">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ts\validation.ts'))</AssetFile>
