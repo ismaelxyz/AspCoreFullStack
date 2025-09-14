@@ -31,6 +31,11 @@ async function addUsers(email: string, password: string): Promise<void> {
         await getUsers();
     }
 }
+
+function validateForm(email: string, password: string): boolean {
+    return validateEmail(email) && validatePassword(password);
+}
+
 function showValidationErrors(email: string, password: string, emailError: HTMLSpanElement, passwordError: HTMLSpanElement): void {
     emailError.textContent = '';
     passwordError.textContent = '';
@@ -48,7 +53,7 @@ async function addUser(): Promise<void> {
     const form = document.getElementById('login-form') as HTMLFormElement;
     const emailError = document.getElementById('email-error') as HTMLSpanElement;
     const passwordError = document.getElementById('password-error') as HTMLSpanElement;
-    
+
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
 
@@ -56,11 +61,17 @@ async function addUser(): Promise<void> {
         const email = formData.get('email')?.toString().trim() || ''!;
         const password = formData.get('password')?.toString().trim() || ''!;
 
+        showValidationErrors(email, password, emailError, passwordError);
+
+        if (validateForm(email, password)) {
+
+        }
 
         await addUsers(email, password);
         form.reset();
     });
 }
+
 async function searchUser(): Promise<void> {
     const form = document.getElementById('search-form') as HTMLFormElement;
     form.addEventListener('submit', async (e) => {
