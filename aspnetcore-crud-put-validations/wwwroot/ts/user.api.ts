@@ -64,11 +64,17 @@ async function addUser(): Promise<void> {
         showValidationErrors(email, password, emailError, passwordError);
 
         if (validateForm(email, password)) {
+            try{
+                await addUsers(email, password);
+                form.reset();
+                
+            }catch(error){
+                console.error('Error adding user:', error);
+            }
+            
 
         }
 
-        await addUsers(email, password);
-        form.reset();
     });
 }
 
