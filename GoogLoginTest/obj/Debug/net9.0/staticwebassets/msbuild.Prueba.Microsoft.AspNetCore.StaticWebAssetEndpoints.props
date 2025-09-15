@@ -1,0 +1,76 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Prueba/css/darkmode.8xujwkj4hf.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\darkmode.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8xujwkj4hf"},{"Name":"integrity","Value":"sha256-tLw0tKQwbHvk6ebm\u002Bzs72Bt2B/YprZhMQtTHjGH3biA="},{"Name":"label","Value":"_content/Prueba/css/darkmode.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"364"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022tLw0tKQwbHvk6ebm\u002Bzs72Bt2B/YprZhMQtTHjGH3biA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 15 Sep 2025 02:53:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Prueba/css/darkmode.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\darkmode.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tLw0tKQwbHvk6ebm\u002Bzs72Bt2B/YprZhMQtTHjGH3biA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"364"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022tLw0tKQwbHvk6ebm\u002Bzs72Bt2B/YprZhMQtTHjGH3biA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 15 Sep 2025 02:53:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Prueba/js/google-auth.d.8efg7cwjei.ts">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\google-auth.d.ts'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8efg7cwjei"},{"Name":"integrity","Value":"sha256-EHf6O28QM0G8SnijoRmU4d17/teCPrIRpMV\u002BUKlhVaw="},{"Name":"label","Value":"_content/Prueba/js/google-auth.d.ts"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"415"},{"Name":"Content-Type","Value":"video/vnd.dlna.mpeg-tts"},{"Name":"ETag","Value":"\u0022EHf6O28QM0G8SnijoRmU4d17/teCPrIRpMV\u002BUKlhVaw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 15 Sep 2025 04:33:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Prueba/js/google-auth.d.ts">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\google-auth.d.ts'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EHf6O28QM0G8SnijoRmU4d17/teCPrIRpMV\u002BUKlhVaw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"415"},{"Name":"Content-Type","Value":"video/vnd.dlna.mpeg-tts"},{"Name":"ETag","Value":"\u0022EHf6O28QM0G8SnijoRmU4d17/teCPrIRpMV\u002BUKlhVaw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 15 Sep 2025 04:33:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Prueba/js/google-auth.d.ts.75wbc9jkpi.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\google-auth.d.ts.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"75wbc9jkpi"},{"Name":"integrity","Value":"sha256-e/dH51qPA6Q2lYti8\u002BIG8oa0rpj2SEsgvzBTWYsqX/k="},{"Name":"label","Value":"_content/Prueba/js/google-auth.d.ts.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"416"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022e/dH51qPA6Q2lYti8\u002BIG8oa0rpj2SEsgvzBTWYsqX/k=\u0022"},{"Name":"Last-Modified","Value":"Mon, 15 Sep 2025 04:33:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Prueba/js/google-auth.d.ts.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\google-auth.d.ts.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-e/dH51qPA6Q2lYti8\u002BIG8oa0rpj2SEsgvzBTWYsqX/k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"416"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022e/dH51qPA6Q2lYti8\u002BIG8oa0rpj2SEsgvzBTWYsqX/k=\u0022"},{"Name":"Last-Modified","Value":"Mon, 15 Sep 2025 04:33:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Prueba/js/google-auth.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\google-auth.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6N43QX5\u002BHl0rHAWVkJKvkpB2HNUCaRaIH0x5WDL6FoU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3342"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00226N43QX5\u002BHl0rHAWVkJKvkpB2HNUCaRaIH0x5WDL6FoU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 15 Sep 2025 04:33:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Prueba/js/google-auth.js.ey22js4efv.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\google-auth.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ey22js4efv"},{"Name":"integrity","Value":"sha256-iuG\u002BZchTCkLJNUckuM/JFJxSXrUQquF30Fq0WJjwvKU="},{"Name":"label","Value":"_content/Prueba/js/google-auth.js.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1865"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022iuG\u002BZchTCkLJNUckuM/JFJxSXrUQquF30Fq0WJjwvKU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 15 Sep 2025 04:33:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Prueba/js/google-auth.js.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\google-auth.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iuG\u002BZchTCkLJNUckuM/JFJxSXrUQquF30Fq0WJjwvKU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1865"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022iuG\u002BZchTCkLJNUckuM/JFJxSXrUQquF30Fq0WJjwvKU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 15 Sep 2025 04:33:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Prueba/js/google-auth.we5usvzbzz.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\google-auth.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"we5usvzbzz"},{"Name":"integrity","Value":"sha256-6N43QX5\u002BHl0rHAWVkJKvkpB2HNUCaRaIH0x5WDL6FoU="},{"Name":"label","Value":"_content/Prueba/js/google-auth.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3342"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00226N43QX5\u002BHl0rHAWVkJKvkpB2HNUCaRaIH0x5WDL6FoU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 15 Sep 2025 04:33:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Prueba/ts/google-auth.ts">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ts\google-auth.ts'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mTBIzurLEuw8kprgBgdLlsNh0ZseXokh1LqPSdh5\u002BEE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3333"},{"Name":"Content-Type","Value":"video/vnd.dlna.mpeg-tts"},{"Name":"ETag","Value":"\u0022mTBIzurLEuw8kprgBgdLlsNh0ZseXokh1LqPSdh5\u002BEE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 15 Sep 2025 04:33:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Prueba/ts/google-auth.xegq79bio1.ts">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ts\google-auth.ts'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xegq79bio1"},{"Name":"integrity","Value":"sha256-mTBIzurLEuw8kprgBgdLlsNh0ZseXokh1LqPSdh5\u002BEE="},{"Name":"label","Value":"_content/Prueba/ts/google-auth.ts"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3333"},{"Name":"Content-Type","Value":"video/vnd.dlna.mpeg-tts"},{"Name":"ETag","Value":"\u0022mTBIzurLEuw8kprgBgdLlsNh0ZseXokh1LqPSdh5\u002BEE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 15 Sep 2025 04:33:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

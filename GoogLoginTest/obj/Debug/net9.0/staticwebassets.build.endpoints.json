@@ -1,0 +1,1362 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "css/darkmode.8xujwkj4hf.css",
+      "AssetFile": "css/darkmode.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WZcKPsmJe2J8x3dVB51YFGy0RY8EVcPPWlvmWOYE/Zo=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tLw0tKQwbHvk6ebm+zs72Bt2B/YprZhMQtTHjGH3biA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 02:53:19 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8xujwkj4hf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLw0tKQwbHvk6ebm+zs72Bt2B/YprZhMQtTHjGH3biA="
+        },
+        {
+          "Name": "label",
+          "Value": "css/darkmode.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/darkmode.8xujwkj4hf.css",
+      "AssetFile": "css/darkmode.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLw0tKQwbHvk6ebm+zs72Bt2B/YprZhMQtTHjGH3biA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 02:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8xujwkj4hf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLw0tKQwbHvk6ebm+zs72Bt2B/YprZhMQtTHjGH3biA="
+        },
+        {
+          "Name": "label",
+          "Value": "css/darkmode.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/darkmode.8xujwkj4hf.css.gz",
+      "AssetFile": "css/darkmode.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WZcKPsmJe2J8x3dVB51YFGy0RY8EVcPPWlvmWOYE/Zo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 02:53:19 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8xujwkj4hf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WZcKPsmJe2J8x3dVB51YFGy0RY8EVcPPWlvmWOYE/Zo="
+        },
+        {
+          "Name": "label",
+          "Value": "css/darkmode.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "css/darkmode.css",
+      "AssetFile": "css/darkmode.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WZcKPsmJe2J8x3dVB51YFGy0RY8EVcPPWlvmWOYE/Zo=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tLw0tKQwbHvk6ebm+zs72Bt2B/YprZhMQtTHjGH3biA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 02:53:19 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLw0tKQwbHvk6ebm+zs72Bt2B/YprZhMQtTHjGH3biA="
+        }
+      ]
+    },
+    {
+      "Route": "css/darkmode.css",
+      "AssetFile": "css/darkmode.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLw0tKQwbHvk6ebm+zs72Bt2B/YprZhMQtTHjGH3biA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 02:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLw0tKQwbHvk6ebm+zs72Bt2B/YprZhMQtTHjGH3biA="
+        }
+      ]
+    },
+    {
+      "Route": "css/darkmode.css.gz",
+      "AssetFile": "css/darkmode.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WZcKPsmJe2J8x3dVB51YFGy0RY8EVcPPWlvmWOYE/Zo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 02:53:19 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WZcKPsmJe2J8x3dVB51YFGy0RY8EVcPPWlvmWOYE/Zo="
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.d.8efg7cwjei.ts",
+      "AssetFile": "js/google-auth.d.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EHf6O28QM0G8SnijoRmU4d17/teCPrIRpMV+UKlhVaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8efg7cwjei"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EHf6O28QM0G8SnijoRmU4d17/teCPrIRpMV+UKlhVaw="
+        },
+        {
+          "Name": "label",
+          "Value": "js/google-auth.d.ts"
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.d.ts",
+      "AssetFile": "js/google-auth.d.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EHf6O28QM0G8SnijoRmU4d17/teCPrIRpMV+UKlhVaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EHf6O28QM0G8SnijoRmU4d17/teCPrIRpMV+UKlhVaw="
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.d.ts.75wbc9jkpi.map",
+      "AssetFile": "js/google-auth.d.ts.map.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004016064257"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jLg1fVsS1QYGCNhfmccfvS8soAAaJb23gnQ64n5yx2I=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"e/dH51qPA6Q2lYti8+IG8oa0rpj2SEsgvzBTWYsqX/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "75wbc9jkpi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e/dH51qPA6Q2lYti8+IG8oa0rpj2SEsgvzBTWYsqX/k="
+        },
+        {
+          "Name": "label",
+          "Value": "js/google-auth.d.ts.map"
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.d.ts.75wbc9jkpi.map",
+      "AssetFile": "js/google-auth.d.ts.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e/dH51qPA6Q2lYti8+IG8oa0rpj2SEsgvzBTWYsqX/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "75wbc9jkpi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e/dH51qPA6Q2lYti8+IG8oa0rpj2SEsgvzBTWYsqX/k="
+        },
+        {
+          "Name": "label",
+          "Value": "js/google-auth.d.ts.map"
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.d.ts.75wbc9jkpi.map.gz",
+      "AssetFile": "js/google-auth.d.ts.map.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jLg1fVsS1QYGCNhfmccfvS8soAAaJb23gnQ64n5yx2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "75wbc9jkpi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jLg1fVsS1QYGCNhfmccfvS8soAAaJb23gnQ64n5yx2I="
+        },
+        {
+          "Name": "label",
+          "Value": "js/google-auth.d.ts.map.gz"
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.d.ts.map",
+      "AssetFile": "js/google-auth.d.ts.map.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004016064257"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jLg1fVsS1QYGCNhfmccfvS8soAAaJb23gnQ64n5yx2I=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"e/dH51qPA6Q2lYti8+IG8oa0rpj2SEsgvzBTWYsqX/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e/dH51qPA6Q2lYti8+IG8oa0rpj2SEsgvzBTWYsqX/k="
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.d.ts.map",
+      "AssetFile": "js/google-auth.d.ts.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e/dH51qPA6Q2lYti8+IG8oa0rpj2SEsgvzBTWYsqX/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e/dH51qPA6Q2lYti8+IG8oa0rpj2SEsgvzBTWYsqX/k="
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.d.ts.map.gz",
+      "AssetFile": "js/google-auth.d.ts.map.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jLg1fVsS1QYGCNhfmccfvS8soAAaJb23gnQ64n5yx2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jLg1fVsS1QYGCNhfmccfvS8soAAaJb23gnQ64n5yx2I="
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.js",
+      "AssetFile": "js/google-auth.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000720980534"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rJS7UpUYlPY1Rh6Jb5QjXORKL1sFwErDAVMeI/ukjEY=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6N43QX5+Hl0rHAWVkJKvkpB2HNUCaRaIH0x5WDL6FoU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6N43QX5+Hl0rHAWVkJKvkpB2HNUCaRaIH0x5WDL6FoU="
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.js",
+      "AssetFile": "js/google-auth.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6N43QX5+Hl0rHAWVkJKvkpB2HNUCaRaIH0x5WDL6FoU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6N43QX5+Hl0rHAWVkJKvkpB2HNUCaRaIH0x5WDL6FoU="
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.js.ey22js4efv.map",
+      "AssetFile": "js/google-auth.js.map.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001552795031"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R5Y+kIV49x68ojUVnWep37FGnme8f/IhuViCIqB6+hE=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iuG+ZchTCkLJNUckuM/JFJxSXrUQquF30Fq0WJjwvKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ey22js4efv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iuG+ZchTCkLJNUckuM/JFJxSXrUQquF30Fq0WJjwvKU="
+        },
+        {
+          "Name": "label",
+          "Value": "js/google-auth.js.map"
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.js.ey22js4efv.map",
+      "AssetFile": "js/google-auth.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iuG+ZchTCkLJNUckuM/JFJxSXrUQquF30Fq0WJjwvKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ey22js4efv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iuG+ZchTCkLJNUckuM/JFJxSXrUQquF30Fq0WJjwvKU="
+        },
+        {
+          "Name": "label",
+          "Value": "js/google-auth.js.map"
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.js.ey22js4efv.map.gz",
+      "AssetFile": "js/google-auth.js.map.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R5Y+kIV49x68ojUVnWep37FGnme8f/IhuViCIqB6+hE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ey22js4efv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R5Y+kIV49x68ojUVnWep37FGnme8f/IhuViCIqB6+hE="
+        },
+        {
+          "Name": "label",
+          "Value": "js/google-auth.js.map.gz"
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.js.gz",
+      "AssetFile": "js/google-auth.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rJS7UpUYlPY1Rh6Jb5QjXORKL1sFwErDAVMeI/ukjEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rJS7UpUYlPY1Rh6Jb5QjXORKL1sFwErDAVMeI/ukjEY="
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.js.map",
+      "AssetFile": "js/google-auth.js.map.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001552795031"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R5Y+kIV49x68ojUVnWep37FGnme8f/IhuViCIqB6+hE=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iuG+ZchTCkLJNUckuM/JFJxSXrUQquF30Fq0WJjwvKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iuG+ZchTCkLJNUckuM/JFJxSXrUQquF30Fq0WJjwvKU="
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.js.map",
+      "AssetFile": "js/google-auth.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iuG+ZchTCkLJNUckuM/JFJxSXrUQquF30Fq0WJjwvKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iuG+ZchTCkLJNUckuM/JFJxSXrUQquF30Fq0WJjwvKU="
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.js.map.gz",
+      "AssetFile": "js/google-auth.js.map.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R5Y+kIV49x68ojUVnWep37FGnme8f/IhuViCIqB6+hE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R5Y+kIV49x68ojUVnWep37FGnme8f/IhuViCIqB6+hE="
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.we5usvzbzz.js",
+      "AssetFile": "js/google-auth.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000720980534"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rJS7UpUYlPY1Rh6Jb5QjXORKL1sFwErDAVMeI/ukjEY=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6N43QX5+Hl0rHAWVkJKvkpB2HNUCaRaIH0x5WDL6FoU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "we5usvzbzz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6N43QX5+Hl0rHAWVkJKvkpB2HNUCaRaIH0x5WDL6FoU="
+        },
+        {
+          "Name": "label",
+          "Value": "js/google-auth.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.we5usvzbzz.js",
+      "AssetFile": "js/google-auth.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6N43QX5+Hl0rHAWVkJKvkpB2HNUCaRaIH0x5WDL6FoU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "we5usvzbzz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6N43QX5+Hl0rHAWVkJKvkpB2HNUCaRaIH0x5WDL6FoU="
+        },
+        {
+          "Name": "label",
+          "Value": "js/google-auth.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/google-auth.we5usvzbzz.js.gz",
+      "AssetFile": "js/google-auth.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rJS7UpUYlPY1Rh6Jb5QjXORKL1sFwErDAVMeI/ukjEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:54 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "we5usvzbzz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rJS7UpUYlPY1Rh6Jb5QjXORKL1sFwErDAVMeI/ukjEY="
+        },
+        {
+          "Name": "label",
+          "Value": "js/google-auth.js.gz"
+        }
+      ]
+    },
+    {
+      "Route": "ts/google-auth.ts",
+      "AssetFile": "ts/google-auth.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mTBIzurLEuw8kprgBgdLlsNh0ZseXokh1LqPSdh5+EE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mTBIzurLEuw8kprgBgdLlsNh0ZseXokh1LqPSdh5+EE="
+        }
+      ]
+    },
+    {
+      "Route": "ts/google-auth.xegq79bio1.ts",
+      "AssetFile": "ts/google-auth.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mTBIzurLEuw8kprgBgdLlsNh0ZseXokh1LqPSdh5+EE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Sep 2025 04:33:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xegq79bio1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mTBIzurLEuw8kprgBgdLlsNh0ZseXokh1LqPSdh5+EE="
+        },
+        {
+          "Name": "label",
+          "Value": "ts/google-auth.ts"
+        }
+      ]
+    }
+  ]
+}

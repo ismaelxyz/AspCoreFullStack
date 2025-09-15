@@ -1,0 +1,20 @@
+/* Dark mode styles */
+body {
+    background-color: #181a1b;
+    color: #e8e6e3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fafafa;
+}
+
+input, button, select, textarea {
+    background-color: #23272b;
+    color: #e8e6e3;
+    border: 1px solid #444;
+}
+
+/* Google button override (if needed) */
+.g_id_signin {
+    filter: invert(1) hue-rotate(180deg) brightness(0.9);
+}
