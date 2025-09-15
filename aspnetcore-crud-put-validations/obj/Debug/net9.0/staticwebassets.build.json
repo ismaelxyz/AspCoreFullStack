@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yKtuubqapV0vyiY97zwNRHImGfpC0+6C9rjxhMXeYPw=",
+  "Hash": "BtFuGvYnbuVjMEG2PorK8yH2ecw1YcOqeauGk23bmiY=",
   "Source": "aspnetcore-crud-put-validations",
   "BasePath": "_content/aspnetcore-crud-put-validations",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/1wno1hb3cw-440848eyoo.gz",
+      "Identity": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/1wno1hb3cw-48bpe2e58y.gz",
       "SourceId": "aspnetcore-crud-put-validations",
       "SourceType": "Discovered",
       "ContentRoot": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/aspnetcore-crud-put-validations",
-      "RelativePath": "js/user.api.js#[.{fingerprint=440848eyoo}]?.map.gz",
+      "RelativePath": "js/user.api.js#[.{fingerprint=48bpe2e58y}]?.map.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/user.api.js.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "rs1yra3dw4",
-      "Integrity": "mxAtAzxhURU7Z/ysR+/AY4KiNzyaQgizrdO1ax9ciro=",
+      "Fingerprint": "8i1e5qxt29",
+      "Integrity": "4OMsfRkyVJ3XhtIF2LnpjQqpAyocEbT5cY9rKLNz0Ds=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/user.api.js.map"
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/validation.js"
     },
     {
-      "Identity": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/l44rafymyw-o3x33qp3k6.gz",
+      "Identity": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/l44rafymyw-8t24rzj3ml.gz",
       "SourceId": "aspnetcore-crud-put-validations",
       "SourceType": "Discovered",
       "ContentRoot": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/aspnetcore-crud-put-validations",
-      "RelativePath": "js/user.api#[.{fingerprint=o3x33qp3k6}]?.js.gz",
+      "RelativePath": "js/user.api#[.{fingerprint=8t24rzj3ml}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -115,8 +115,8 @@
       "RelatedAsset": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/user.api.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qneig6hf1i",
-      "Integrity": "Si3qieCDoJj880T9+vz18Ad0amFVB+jioLKBwpSgF7M=",
+      "Fingerprint": "zpom08ocvk",
+      "Integrity": "WTkHHXFQ6LLYTyLx6WzEaATdOkVXYXf7RESEBluqhck=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/user.api.js"
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o3x33qp3k6",
-      "Integrity": "VKUDU44bOaIAs+xG9PJSur19CeHmIzooGCJfX34BonA=",
+      "Fingerprint": "8t24rzj3ml",
+      "Integrity": "xMFRW0UlCBCvUAzBxlwZ/ahjZDlmevwgkKE4m5ivmZs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/user.api.js"
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "440848eyoo",
-      "Integrity": "lLbQqfeJ/2snHNKOihiLZGSWWvQr7DS98YSo3//j1IA=",
+      "Fingerprint": "48bpe2e58y",
+      "Integrity": "FDuY2cffJWNFD0XH9fU865uuJwW7DsCRFTHWyp+TeKY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/user.api.js.map"
@@ -325,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "j7jnctm59b",
-      "Integrity": "/4Awcktt0sI1nel38kaRE/Go+C/+yvM1n48wS6oQXrw=",
+      "Fingerprint": "pfbmakaf7i",
+      "Integrity": "ZV0As35ewMshxHI4b0y4fatrFXOViHI2KgcqzVMVtho=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/ts/user.api.ts"
@@ -355,6 +355,167 @@
   ],
   "Endpoints": [
     {
+      "Route": "js/user.api.8t24rzj3ml.js",
+      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/l44rafymyw-8t24rzj3ml.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000689655172"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1449"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WTkHHXFQ6LLYTyLx6WzEaATdOkVXYXf7RESEBluqhck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xMFRW0UlCBCvUAzBxlwZ/ahjZDlmevwgkKE4m5ivmZs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8t24rzj3ml"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.api.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xMFRW0UlCBCvUAzBxlwZ/ahjZDlmevwgkKE4m5ivmZs="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.api.8t24rzj3ml.js",
+      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/user.api.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xMFRW0UlCBCvUAzBxlwZ/ahjZDlmevwgkKE4m5ivmZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8t24rzj3ml"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.api.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xMFRW0UlCBCvUAzBxlwZ/ahjZDlmevwgkKE4m5ivmZs="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.api.8t24rzj3ml.js.gz",
+      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/l44rafymyw-8t24rzj3ml.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1449"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WTkHHXFQ6LLYTyLx6WzEaATdOkVXYXf7RESEBluqhck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8t24rzj3ml"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.api.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WTkHHXFQ6LLYTyLx6WzEaATdOkVXYXf7RESEBluqhck="
+        }
+      ]
+    },
+    {
       "Route": "js/user.api.d.p7bka6216m.ts",
       "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/user.api.d.ts",
       "Selectors": [],
@@ -377,7 +538,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -422,7 +583,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -461,7 +622,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -514,7 +675,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -551,7 +712,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -598,7 +759,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -659,7 +820,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -704,7 +865,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -736,12 +897,12 @@
     },
     {
       "Route": "js/user.api.js",
-      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/l44rafymyw-o3x33qp3k6.gz",
+      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/l44rafymyw-8t24rzj3ml.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000747943156"
+          "Quality": "0.000689655172"
         }
       ],
       "ResponseHeaders": [
@@ -751,15 +912,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1336"
+          "Value": "1449"
         },
         {
           "Name": "ETag",
-          "Value": "\"Si3qieCDoJj880T9+vz18Ad0amFVB+jioLKBwpSgF7M=\""
+          "Value": "\"WTkHHXFQ6LLYTyLx6WzEaATdOkVXYXf7RESEBluqhck=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -779,13 +940,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"VKUDU44bOaIAs+xG9PJSur19CeHmIzooGCJfX34BonA=\""
+          "Value": "W/\"xMFRW0UlCBCvUAzBxlwZ/ahjZDlmevwgkKE4m5ivmZs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VKUDU44bOaIAs+xG9PJSur19CeHmIzooGCJfX34BonA="
+          "Value": "sha256-xMFRW0UlCBCvUAzBxlwZ/ahjZDlmevwgkKE4m5ivmZs="
         }
       ]
     },
@@ -800,7 +961,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4439"
+          "Value": "4756"
         },
         {
           "Name": "Content-Type",
@@ -808,11 +969,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VKUDU44bOaIAs+xG9PJSur19CeHmIzooGCJfX34BonA=\""
+          "Value": "\"xMFRW0UlCBCvUAzBxlwZ/ahjZDlmevwgkKE4m5ivmZs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -822,18 +983,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VKUDU44bOaIAs+xG9PJSur19CeHmIzooGCJfX34BonA="
+          "Value": "sha256-xMFRW0UlCBCvUAzBxlwZ/ahjZDlmevwgkKE4m5ivmZs="
         }
       ]
     },
     {
-      "Route": "js/user.api.js.440848eyoo.map",
-      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/1wno1hb3cw-440848eyoo.gz",
+      "Route": "js/user.api.js.48bpe2e58y.map",
+      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/1wno1hb3cw-48bpe2e58y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001127395716"
+          "Quality": "0.001126126126"
         }
       ],
       "ResponseHeaders": [
@@ -843,15 +1004,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "886"
+          "Value": "887"
         },
         {
           "Name": "ETag",
-          "Value": "\"mxAtAzxhURU7Z/ysR+/AY4KiNzyaQgizrdO1ax9ciro=\""
+          "Value": "\"4OMsfRkyVJ3XhtIF2LnpjQqpAyocEbT5cY9rKLNz0Ds=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -871,13 +1032,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lLbQqfeJ/2snHNKOihiLZGSWWvQr7DS98YSo3//j1IA=\""
+          "Value": "W/\"FDuY2cffJWNFD0XH9fU865uuJwW7DsCRFTHWyp+TeKY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "440848eyoo"
+          "Value": "48bpe2e58y"
         },
         {
           "Name": "label",
@@ -885,12 +1046,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lLbQqfeJ/2snHNKOihiLZGSWWvQr7DS98YSo3//j1IA="
+          "Value": "sha256-FDuY2cffJWNFD0XH9fU865uuJwW7DsCRFTHWyp+TeKY="
         }
       ]
     },
     {
-      "Route": "js/user.api.js.440848eyoo.map",
+      "Route": "js/user.api.js.48bpe2e58y.map",
       "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/user.api.js.map",
       "Selectors": [],
       "ResponseHeaders": [
@@ -900,7 +1061,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3194"
+          "Value": "3145"
         },
         {
           "Name": "Content-Type",
@@ -908,11 +1069,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lLbQqfeJ/2snHNKOihiLZGSWWvQr7DS98YSo3//j1IA=\""
+          "Value": "\"FDuY2cffJWNFD0XH9fU865uuJwW7DsCRFTHWyp+TeKY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -922,7 +1083,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "440848eyoo"
+          "Value": "48bpe2e58y"
         },
         {
           "Name": "label",
@@ -930,13 +1091,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lLbQqfeJ/2snHNKOihiLZGSWWvQr7DS98YSo3//j1IA="
+          "Value": "sha256-FDuY2cffJWNFD0XH9fU865uuJwW7DsCRFTHWyp+TeKY="
         }
       ]
     },
     {
-      "Route": "js/user.api.js.440848eyoo.map.gz",
-      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/1wno1hb3cw-440848eyoo.gz",
+      "Route": "js/user.api.js.48bpe2e58y.map.gz",
+      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/1wno1hb3cw-48bpe2e58y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -945,7 +1106,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "886"
+          "Value": "887"
         },
         {
           "Name": "Content-Type",
@@ -953,11 +1114,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mxAtAzxhURU7Z/ysR+/AY4KiNzyaQgizrdO1ax9ciro=\""
+          "Value": "\"4OMsfRkyVJ3XhtIF2LnpjQqpAyocEbT5cY9rKLNz0Ds=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -975,7 +1136,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "440848eyoo"
+          "Value": "48bpe2e58y"
         },
         {
           "Name": "label",
@@ -983,13 +1144,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mxAtAzxhURU7Z/ysR+/AY4KiNzyaQgizrdO1ax9ciro="
+          "Value": "sha256-4OMsfRkyVJ3XhtIF2LnpjQqpAyocEbT5cY9rKLNz0Ds="
         }
       ]
     },
     {
       "Route": "js/user.api.js.gz",
-      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/l44rafymyw-o3x33qp3k6.gz",
+      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/l44rafymyw-8t24rzj3ml.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -998,7 +1159,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1336"
+          "Value": "1449"
         },
         {
           "Name": "Content-Type",
@@ -1006,11 +1167,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Si3qieCDoJj880T9+vz18Ad0amFVB+jioLKBwpSgF7M=\""
+          "Value": "\"WTkHHXFQ6LLYTyLx6WzEaATdOkVXYXf7RESEBluqhck=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1028,18 +1189,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Si3qieCDoJj880T9+vz18Ad0amFVB+jioLKBwpSgF7M="
+          "Value": "sha256-WTkHHXFQ6LLYTyLx6WzEaATdOkVXYXf7RESEBluqhck="
         }
       ]
     },
     {
       "Route": "js/user.api.js.map",
-      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/1wno1hb3cw-440848eyoo.gz",
+      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/1wno1hb3cw-48bpe2e58y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001127395716"
+          "Quality": "0.001126126126"
         }
       ],
       "ResponseHeaders": [
@@ -1049,15 +1210,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "886"
+          "Value": "887"
         },
         {
           "Name": "ETag",
-          "Value": "\"mxAtAzxhURU7Z/ysR+/AY4KiNzyaQgizrdO1ax9ciro=\""
+          "Value": "\"4OMsfRkyVJ3XhtIF2LnpjQqpAyocEbT5cY9rKLNz0Ds=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1077,13 +1238,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lLbQqfeJ/2snHNKOihiLZGSWWvQr7DS98YSo3//j1IA=\""
+          "Value": "W/\"FDuY2cffJWNFD0XH9fU865uuJwW7DsCRFTHWyp+TeKY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lLbQqfeJ/2snHNKOihiLZGSWWvQr7DS98YSo3//j1IA="
+          "Value": "sha256-FDuY2cffJWNFD0XH9fU865uuJwW7DsCRFTHWyp+TeKY="
         }
       ]
     },
@@ -1098,7 +1259,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3194"
+          "Value": "3145"
         },
         {
           "Name": "Content-Type",
@@ -1106,11 +1267,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lLbQqfeJ/2snHNKOihiLZGSWWvQr7DS98YSo3//j1IA=\""
+          "Value": "\"FDuY2cffJWNFD0XH9fU865uuJwW7DsCRFTHWyp+TeKY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1120,13 +1281,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lLbQqfeJ/2snHNKOihiLZGSWWvQr7DS98YSo3//j1IA="
+          "Value": "sha256-FDuY2cffJWNFD0XH9fU865uuJwW7DsCRFTHWyp+TeKY="
         }
       ]
     },
     {
       "Route": "js/user.api.js.map.gz",
-      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/1wno1hb3cw-440848eyoo.gz",
+      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/1wno1hb3cw-48bpe2e58y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1135,7 +1296,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "886"
+          "Value": "887"
         },
         {
           "Name": "Content-Type",
@@ -1143,11 +1304,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mxAtAzxhURU7Z/ysR+/AY4KiNzyaQgizrdO1ax9ciro=\""
+          "Value": "\"4OMsfRkyVJ3XhtIF2LnpjQqpAyocEbT5cY9rKLNz0Ds=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1165,168 +1326,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mxAtAzxhURU7Z/ysR+/AY4KiNzyaQgizrdO1ax9ciro="
-        }
-      ]
-    },
-    {
-      "Route": "js/user.api.o3x33qp3k6.js",
-      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/l44rafymyw-o3x33qp3k6.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000747943156"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1336"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Si3qieCDoJj880T9+vz18Ad0amFVB+jioLKBwpSgF7M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"VKUDU44bOaIAs+xG9PJSur19CeHmIzooGCJfX34BonA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o3x33qp3k6"
-        },
-        {
-          "Name": "label",
-          "Value": "js/user.api.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-VKUDU44bOaIAs+xG9PJSur19CeHmIzooGCJfX34BonA="
-        }
-      ]
-    },
-    {
-      "Route": "js/user.api.o3x33qp3k6.js",
-      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/js/user.api.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4439"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VKUDU44bOaIAs+xG9PJSur19CeHmIzooGCJfX34BonA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o3x33qp3k6"
-        },
-        {
-          "Name": "label",
-          "Value": "js/user.api.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-VKUDU44bOaIAs+xG9PJSur19CeHmIzooGCJfX34BonA="
-        }
-      ]
-    },
-    {
-      "Route": "js/user.api.o3x33qp3k6.js.gz",
-      "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/obj/Debug/net9.0/compressed/l44rafymyw-o3x33qp3k6.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1336"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Si3qieCDoJj880T9+vz18Ad0amFVB+jioLKBwpSgF7M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:15:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o3x33qp3k6"
-        },
-        {
-          "Name": "label",
-          "Value": "js/user.api.js.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Si3qieCDoJj880T9+vz18Ad0amFVB+jioLKBwpSgF7M="
+          "Value": "sha256-4OMsfRkyVJ3XhtIF2LnpjQqpAyocEbT5cY9rKLNz0Ds="
         }
       ]
     },
@@ -2307,7 +2307,7 @@
       ]
     },
     {
-      "Route": "ts/user.api.j7jnctm59b.ts",
+      "Route": "ts/user.api.pfbmakaf7i.ts",
       "AssetFile": "/home/crazy/Documents/dev/AspCoreFullStack/aspnetcore-crud-put-validations/wwwroot/ts/user.api.ts",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2317,7 +2317,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3342"
+          "Value": "3693"
         },
         {
           "Name": "Content-Type",
@@ -2325,11 +2325,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/4Awcktt0sI1nel38kaRE/Go+C/+yvM1n48wS6oQXrw=\""
+          "Value": "\"ZV0As35ewMshxHI4b0y4fatrFXOViHI2KgcqzVMVtho=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:14:48 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2339,7 +2339,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j7jnctm59b"
+          "Value": "pfbmakaf7i"
         },
         {
           "Name": "label",
@@ -2347,7 +2347,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/4Awcktt0sI1nel38kaRE/Go+C/+yvM1n48wS6oQXrw="
+          "Value": "sha256-ZV0As35ewMshxHI4b0y4fatrFXOViHI2KgcqzVMVtho="
         }
       ]
     },
@@ -2362,7 +2362,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3342"
+          "Value": "3693"
         },
         {
           "Name": "Content-Type",
@@ -2370,11 +2370,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/4Awcktt0sI1nel38kaRE/Go+C/+yvM1n48wS6oQXrw=\""
+          "Value": "\"ZV0As35ewMshxHI4b0y4fatrFXOViHI2KgcqzVMVtho=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Sep 2025 05:14:48 GMT"
+          "Value": "Sun, 14 Sep 2025 05:40:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2384,7 +2384,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/4Awcktt0sI1nel38kaRE/Go+C/+yvM1n48wS6oQXrw="
+          "Value": "sha256-ZV0As35ewMshxHI4b0y4fatrFXOViHI2KgcqzVMVtho="
         }
       ]
     },
