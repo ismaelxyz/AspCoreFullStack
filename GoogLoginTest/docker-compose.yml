@@ -1,12 +1,9 @@
-version: "3.9"
-
 services:
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: sqlserver
-    ports:
-      - "1433:1433"
+    container_name: sqlserver-new
+    network_mode: host
     environment:
       ACCEPT_EULA: "Y"
-      SA_PASSWORD: "PeneRico12!" # cambia a una más segura en producción
+      SA_PASSWORD: ${DB_PASSWORD} # cambia a una más segura en producción
     restart: unless-stopped
