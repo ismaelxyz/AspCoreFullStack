@@ -38,7 +38,6 @@ function handleCredentialResponse(response) {
         // Decodificar el token JWT para obtener los datos del usuario
         const userData = parseJwt(response.credential);
         if (userData) {
-            // Aquí puedes hacer lo que necesites con los datos del usuario
             displayUserInfo(userData);
             yield fetch("Api/Auth/google", {
                 method: "POST",
