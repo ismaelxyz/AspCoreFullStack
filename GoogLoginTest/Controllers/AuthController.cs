@@ -11,8 +11,10 @@ public class AuthController : ControllerBase
         _context = context;
     }
 
+
     [HttpPost("google")]
-    public IActionResult GoogleLogin([FromBody] GoogleUserRequest request)
+    
+public async Task< IActionResult> GoogleLogin([FromBody] GoogleUserRequest request)
     {
         if (request == null || request.User == null)
             return BadRequest("Invalid data");
@@ -34,8 +36,9 @@ public class AuthController : ControllerBase
         };
 
         _context.GoogleAuthUsers.Add(user);
-        _context.SaveChanges();
+        await _context.SaveChangesAsync();
 
         return Ok(new { message = "Usuario guardado", user });
     }
+    
 }
