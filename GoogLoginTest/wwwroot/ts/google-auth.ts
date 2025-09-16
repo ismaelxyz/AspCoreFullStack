@@ -58,7 +58,6 @@ async function handleCredentialResponse(response: GoogleCredentialResponse): Pro
     const userData = parseJwt(response.credential);
 
     if (userData) {
-        // Aquí puedes hacer lo que necesites con los datos del usuario
         displayUserInfo(userData);
         await fetch("Api/Auth/google", {
             method: "POST",
